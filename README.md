@@ -1,6 +1,6 @@
 # FullStackOpen_Part0
 
-Exercise 0.4
+## Exercise 0.4
 
     sequenceDiagram
         participant browser
@@ -33,8 +33,9 @@ Exercise 0.4
 
 ![](Excercise%200.4%20sequence%20diagram.png)
 
+___
 
-Excercise 0.5
+## Excercise 0.5
 
     sequenceDiagram
         participant browser
@@ -61,3 +62,18 @@ Excercise 0.5
         deactivate server
 
 ![](Excercise%200.5%20sequence%20diagram.png)
+
+___
+
+## Excercise 0.6
+
+    sequenceDiagram
+        participant browser
+        participant server
+
+        browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+        activate server
+        server-->>browser: {"message":"note created"}
+        deactivate server
+
+![](Excercise%200.6%20sequence%20diagram.png)
