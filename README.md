@@ -31,7 +31,7 @@ Exercise 0.4
         activate server
         server-->>browser: [{content: "wtf ??", date: "2024-05-03T13:31:31.635Z"},…]
 
-![](Excersice 0.4 mermaid-diagram.png)
+![](Excercise 0.4 sequence diagram.png)
 
 
 Excercise 0.5
